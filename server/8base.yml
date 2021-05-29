@@ -4,3 +4,7 @@ functions:
     handler:
       code: src/resolvers/myCustomResolver/handler.ts
     schema: src/resolvers/myCustomResolver/schema.graphql
+  myNewTask:
+    type: task
+    handler:
+      code: src/tasks/myNewTask/handler.ts

@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "functions": [
+    {
+      "name": "myCustomResolver",
+      "handler": "myCustomResolver.handler",
+      "pathToFunction": "src/resolvers/myCustomResolver/handler.ts"
+    },
+    {
+      "name": "myNewTask",
+      "handler": "myNewTask.handler",
+      "pathToFunction": "src/tasks/myNewTask/handler.ts"
+    }
+  ]
+}
