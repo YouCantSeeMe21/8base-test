@@ -16,6 +16,8 @@ cannot start with period or be empty (Bug-05)
 - The overall project structure is confusing. According to guide first we create project tree with server directory and later we init a project with no name in this directory which
 is not possible. We must init a project with name "server" to get project tree described in guide.
 
+- Had to add "SKIP_PREFLIGHT_CHECK=true" line in .env file for React starter app to run, because current babel-eslint ver 10.1.0 but app requires ver 10.0.1
+
 - I wasnt able to login into Vue or React starter apps (Bug-06, Bug-07), i did not manage to fing the root of the problem, i followed every step of
 Quick Start guide twice. I found community post with similar issue https://community.8base.com/t/login-not-working-in-react-starter-app/531 which
 also has no solution.
