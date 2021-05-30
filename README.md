@@ -1,5 +1,25 @@
 # 8base-test
 
+###Quick Start guide feedback https://docs.8base.com/docs/getting-started/quick-start/
+
+The Quick Start guide is mostly clear and provides good start info of how 8base works.
+
+Here is a few problems i notice in Quick Start doc:
+
+- Links that suppose to lead to user workspace sections are lead to https://app.8base.com/developer-home/workspaces page (Bug-01, Bug-03, Bug-04)
+
+- Screenshot in section "Add user to Notes" is confusing, checkboxes in screenshot are messed up (Bug-02)
+
+- "8base init . --functions=resolver:myCustomResolver" command which suggested in guide to init a project are incorrect, project name
+cannot start with period or be empty (Bug-05)
+
+- The overall project structure is confusing. According to guide first we create project tree with server directory and later we init a project with no name in this directory which
+is not possible. We must init a project with name "server" to get project tree described in guide.
+
+- I wasnt able to login into Vue or React starter apps (Bug-06, Bug-07), i did not manage to fing the root of the problem, i followed every step of
+Quick Start guide twice. I found community post with similar issue https://community.8base.com/t/login-not-working-in-react-starter-app/531 which
+also has no solution.
+
 **************************************
 **Bug-01**
 
@@ -102,7 +122,7 @@ requires project name which cannot start with period or be empty. This is most l
 
 **Severity**: Minor
 
-**Environment**: Win 10, 1920x1080 Chrome 90.0.4430.212, Node.js 16.2.0 (x64), 8base CLI 0.0.109
+**Environment**: Win 10, Node.js 16.2.0 (x64), 8base CLI 0.0.109
 
 **************************************
 
@@ -125,6 +145,29 @@ where <YOUR_AUTH_DOMAIN> and <YOUR_AUTH_CLIENT_ID> are environmental variables o
 
 **Severity**: Critical
 
-**Environment**: Win 10, 1920x1080 Chrome 90.0.4430.212, Node.js 16.2.0 (x64), 8base CLI 0.0.109
+**Environment**: Win 10, Chrome 90.0.4430.212, Node.js 16.2.0 (x64), 8base CLI 0.0.109
+
+**************************************
+
+**Bug-07**
+
+An error occurs when trying to sign in in React starter app
+
+**Steps to reproduce:**
+
+1. Follow the first 3 paragraphs of Quick Start guide https://docs.8base.com/docs/getting-started/quick-start , on paragraph 3.3 choose React app,
+dont forget to fill environmental variables of your workspace
+2. Run the app using "npm run start" command
+3. Go to http://localhost:3000/
+4. Click "Sign in" button
+
+**Actual result:** Page <YOUR_AUTH_DOMAIN>/error?error=invalid_request&client_id=<YOUR_AUTH_CLIENT_ID> opens with message "An error was encountered with the requested page.",
+where <YOUR_AUTH_DOMAIN> and <YOUR_AUTH_CLIENT_ID> are environmental variables of your workspace.
+
+**Expected result:** Successful login
+
+**Severity**: Critical
+
+**Environment**: Win 10, Chrome 90.0.4430.212, Node.js 16.2.0 (x64), 8base CLI 0.0.109
 
 **************************************
