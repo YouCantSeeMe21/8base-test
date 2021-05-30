@@ -1,6 +1,6 @@
 # 8base-test
 
-###Quick Start guide feedback https://docs.8base.com/docs/getting-started/quick-start/
+### Quick Start guide feedback https://docs.8base.com/docs/getting-started/quick-start/
 
 The Quick Start guide is mostly clear and provides good start info of how 8base works.
 
