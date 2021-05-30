@@ -10,6 +10,11 @@
       "name": "myNewTask",
       "handler": "myNewTask.handler",
       "pathToFunction": "src/tasks/myNewTask/handler.ts"
+    },
+    {
+      "name": "myNewResolver",
+      "handler": "myNewResolver.handler",
+      "pathToFunction": "src/resolvers/myNewResolver/handler.ts"
     }
   ]
 }

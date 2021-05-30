@@ -7,12 +7,21 @@
     {
       "name": "myNewTask",
       "handler": "myNewTask.handler"
+    },
+    {
+      "name": "myNewResolver",
+      "handler": "myNewResolver.handler"
     }
   ],
   "resolvers": [
     {
       "name": "myCustomResolver",
       "functionName": "myCustomResolver",
+      "gqlType": "Query"
+    },
+    {
+      "name": "myNewResolver",
+      "functionName": "myNewResolver",
       "gqlType": "Query"
     }
   ],

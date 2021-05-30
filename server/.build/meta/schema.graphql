@@ -13,3 +13,18 @@ type MyCustomResolverResult {
 extend type Query {
   myCustomResolver(foo: String!): MyCustomResolverResult
 }
+# This file was generated using 8base CLI.
+#
+# To learn more about writing custom GraphQL resolver types, visit
+# the 8base documentation at:
+#
+# https://docs.8base.com/8base-console/custom-functions/resolvers
+#
+ 
+type MyNewResolverResult {
+  result: String!
+}
+
+extend type Query {
+  myNewResolver(foo: String!): MyNewResolverResult
+}

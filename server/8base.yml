@@ -8,3 +8,8 @@ functions:
     type: task
     handler:
       code: src/tasks/myNewTask/handler.ts
+  myNewResolver:
+    type: resolver
+    handler:
+      code: src/resolvers/myNewResolver/handler.ts
+    schema: src/resolvers/myNewResolver/schema.graphql
