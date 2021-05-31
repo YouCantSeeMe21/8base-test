@@ -143,6 +143,8 @@ dont forget to fill environmental variables of your workspace
 **Actual result:** Page <YOUR_AUTH_DOMAIN>/error?error=invalid_request&client_id=<YOUR_AUTH_CLIENT_ID> opens with message "An error was encountered with the requested page.",
 where <YOUR_AUTH_DOMAIN> and <YOUR_AUTH_CLIENT_ID> are environmental variables of your workspace.
 
+https://i.imgur.com/LZ4wtKx.png
+
 **Expected result:** Successful login
 
 **Severity**: Critical
