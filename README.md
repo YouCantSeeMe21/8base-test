@@ -143,7 +143,7 @@ dont forget to fill environmental variables of your workspace
 **Actual result:** Page <YOUR_AUTH_DOMAIN>/error?error=invalid_request&client_id=<YOUR_AUTH_CLIENT_ID> opens with message "An error was encountered with the requested page.",
 where <YOUR_AUTH_DOMAIN> and <YOUR_AUTH_CLIENT_ID> are environmental variables of your workspace.
 
-https://i.imgur.com/LZ4wtKx.png
+![image](https://user-images.githubusercontent.com/80822580/120168709-d9d35f00-c207-11eb-84dd-81d53da9f8c0.png)
 
 **Expected result:** Successful login
 
@@ -167,6 +167,9 @@ dont forget to fill environmental variables of your workspace
 
 **Actual result:** Page <YOUR_AUTH_DOMAIN>/error?error=invalid_request&client_id=<YOUR_AUTH_CLIENT_ID> opens with message "An error was encountered with the requested page.",
 where <YOUR_AUTH_DOMAIN> and <YOUR_AUTH_CLIENT_ID> are environmental variables of your workspace.
+
+![image](https://user-images.githubusercontent.com/80822580/120168733-dfc94000-c207-11eb-8f35-b042a59a4792.png)
+
 
 **Expected result:** Successful login
 
