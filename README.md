@@ -19,7 +19,7 @@ is not possible. We must init a project with name "server" to get project tree d
 - Had to add "SKIP_PREFLIGHT_CHECK=true" line in .env file for React starter app to run, because current babel-eslint ver 10.1.0 but app requires ver 10.0.1
 
 - I wasnt able to login into Vue or React starter apps (Bug-06, Bug-07), i did not manage to fing the root of the problem, i followed every step of
-Quick Start guide twice. I found community post with similar issue https://community.8base.com/t/login-not-working-in-react-starter-app/531 which
+Quick Start guide twice, with different accounts. I found community post with similar issue https://community.8base.com/t/login-not-working-in-react-starter-app/531 which
 also has no solution.
 
 **************************************
